@@ -7,7 +7,7 @@ fs.readFile('0098pp.jpg', function(err,data){
     console.log (chalk.red('\nFile: 0098pp.jpg'));
          console.log('Data:', iptc(data));
     console.log('Data[245]: ',data[245]);
-    console.log(chalk.blue('Keys:', data.keys,'\n'));
+    console.log(chalk.blue('Keys:', data.keys   ,'\n'));
 
 });
 
